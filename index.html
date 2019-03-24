@@ -11,7 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu:400" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -26,8 +26,8 @@
 
         <!-- Nav Bar -->
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#">barkr</a>
+            <nav class="navbar navbar-expand-lg navbar-dark padding">
+                <a class="navbar-brand app-name" href="#">barkr</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,14 +52,17 @@
 
             <!-- Title -->
 
-            <div class="row">
-                <div class="col-lg-6 titleH1">
-                    <h1>Ever wanted to know what your dog was saying? Now you can!</h1>
-                    <button type="button" class="btn btn-lg btn-dark"><span class="fab fa-apple"></span> Download</button>
-                    <button type="button" class="btn btn-lg btn-outline-light"><span class="fab fa-google-play"></span> Download</button>
+            <div class="row title-img-row">
+                <div class="col-lg-8">
+                    <h1>Ever wanted to know what your dog was saying?</h1>
+                    <h1 class="sub-h1">Now you can!</h1>
+                    <div class="download-btns">
+                        <button type="button" class="btn btn-lg btn-dark"><span class="fab fa-apple"></span> Download</button>
+                        <button type="button" class="btn btn-lg btn-outline-light"><span class="fab fa-google-play"></span> Download</button>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="images/iphone.png" alt="iphone-mockup">
+                <div class="col-lg-4">
+                    <img class="float-right" src="images/iphone.png" alt="iphone-mockup">
                 </div>
             </div>
         </div>
