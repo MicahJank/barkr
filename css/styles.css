@@ -68,3 +68,35 @@ div.download-btns button {
 img.float-right {
     width: 70%;
 }
+
+
+
+/* Features Section */
+
+.features-container {
+    padding: 3% 15%;
+}
+
+.features {
+    text-align: center;
+    padding: 3% 5%;
+    margin: 4rem 0;
+}
+
+.features h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.features p {
+    color: #8f8f8f;
+}
+
+.features p.fas {
+    color: #ef8172;
+    font-size: 4rem;
+}
+
+.features p.fas:hover {
+    color: #ff4c68;
+}
