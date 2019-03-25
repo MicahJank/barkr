@@ -92,11 +92,10 @@ img.float-right {
     color: #8f8f8f;
 }
 
-.features p.fas {
+p.features-icon {
     color: #ef8172;
-    font-size: 4rem;
 }
 
-.features p.fas:hover {
+.features-icon:hover {
     color: #ff4c68;
 }
