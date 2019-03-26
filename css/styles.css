@@ -112,6 +112,7 @@ p.features-icon {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+    padding: 3% 5%; 
 }
 
 .testimonial-image {
@@ -129,3 +130,4 @@ p.features-icon {
     width: 15%;
     margin: 2rem;
 }
+
