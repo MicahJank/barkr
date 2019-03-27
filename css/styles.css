@@ -131,3 +131,31 @@ p.features-icon {
     margin: 2rem;
 }
 
+
+
+/* Sign Up Section */
+
+.sign-up {
+    text-align: center;
+}
+
+.email-form {
+    width: 30%;
+    margin: auto;
+}
+.email-button {
+    margin: auto;
+    width: 30%;
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+    margin-bottom: 3rem;
+}
+.email-button:hover {
+    background-color: #fa1538;
+    border-color: #fa1538;
+}
+
+.sign-up-header {
+    text-align: center;
+    padding: 3rem;
+}
