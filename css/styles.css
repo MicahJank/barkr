@@ -70,16 +70,14 @@ div.download-btns button {
 /* Title Image */
 
 .iphone-img {
+    margin-left: 23%;
     position: relative;
+    max-width: 327px;
+    min-width: 282px;
 }
 .title-img-row {
     margin-top: 2rem;
 }
-
-img.float-right {
-    width: 70%;
-}
-
 
 
 /* Features Section */
@@ -164,4 +162,24 @@ p.features-icon {
 .sign-up-header {
     text-align: center;
     padding: 3rem;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 990px) {
+  .iphone-img {
+      max-width: 80%;
+      padding-left: 0;
+      margin: auto;
+  }
+
+  .container-fluid {
+      text-align: center;
+  }
+  h1.sub-h1 {
+      margin: auto;
+      text-align: center;
+  }
 }
