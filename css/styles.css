@@ -166,25 +166,6 @@ p.features-icon {
 
 
 
-/* Media Queries */
-
-@media (max-width: 990px) {
-  .iphone-img {
-      max-width: 80%;
-      padding-left: 0;
-      margin: auto;
-  }
-
-  .container-fluid {
-      text-align: center;
-  }
-  h1.sub-h1 {
-      margin: auto;
-      text-align: center;
-  }
-}
-
-
 /* Call to Action */
 
 #cta {
@@ -227,3 +208,23 @@ p.features-icon {
 .envelope:hover {
     color: #ff4c68;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 990px) {
+  .iphone-img {
+      max-width: 80%;
+      padding-left: 0;
+      margin: auto;
+  }
+
+  .container-fluid {
+      text-align: center;
+  }
+  h1.sub-h1 {
+      margin: auto;
+      text-align: center;
+  }
+}
+
