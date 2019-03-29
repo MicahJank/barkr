@@ -171,8 +171,8 @@
         <h2 class="sign-up-header">Keep up to date with the latest barkr news!</h2>
         <form class="sign-up">
             <div class="form-group">
-                <input type="email" class="form-control form-control-lg email-form" id="email" aria-describedby="emailHelp"
-                    placeholder="Enter email">
+                <input type="email" class="form-control form-control-lg email-form" id="email"
+                    aria-describedby="emailHelp" placeholder="Enter email">
             </div>
             <button type="submit" class="btn btn-primary btn-lg email-button">Submit</button>
         </form>
@@ -184,10 +184,16 @@
 
     <section id="cta">
 
-        <h3>Oh, also.</h3>
-        <h3>barkr is <em>FREE</em>.</h3>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <div class="container-fluid">
+            <h1>Oh, also.</h1>
+            <h1>barkr is <em>FREE</em>.</h1>
+            <div class="download-btns cta-btns">
+                <button type="button" class="btn btn-lg btn-dark"><span class="fab fa-apple"></span>
+                    Download</button>
+                <button type="button" class="btn btn-lg btn-outline-light"><span class="fab fa-google-play"></span>
+                    Download</button>
+            </div>
+        </div>
 
     </section>
 
@@ -197,9 +203,14 @@
 
     <footer id="footer">
 
-        <p>© Copyright 2019 barkr</p>
+        <div class="container-fluid">
+            <p><span class="fab fa-twitter footer-icons twitter"></span><span class="fab fa-facebook-f footer-icons facebook"></span><span
+                    class="fab fa-instagram footer-icons instagram"></span><span class="fas fa-envelope footer-icons envelope"></span></p>
+            <p>© Copyright 2019 barkr</p>
+        </div>
 
     </footer>
+
 
 
 

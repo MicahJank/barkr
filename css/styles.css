@@ -183,3 +183,47 @@ p.features-icon {
       text-align: center;
   }
 }
+
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5%;
+
+}
+
+.cta-btns {
+    margin-top: 5rem;
+}
+
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.footer-icons {
+    margin: 4rem 1rem 10px;
+}
+
+.twitter:hover {
+    color: #38A1F3; 
+}
+
+.facebook:hover {
+    color: #4267b2;
+}
+
+.instagram:hover {
+    color: #FCAF45;
+}
+
+.envelope:hover {
+    color: #ff4c68;
+}
