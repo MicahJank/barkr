@@ -30,14 +30,13 @@ h6 {
     margin: auto;
 }
 
-.sub {
-    text-align: right;
-}
-
 .big-heading.main {
     text-align: left;
 }
 
+.big-heading.sub {
+    text-align: right;
+}
 
 
 /* Containers */
@@ -141,14 +140,6 @@ p.features-icon {
 .testimonials-container {
     background-color: #ef8172;
     padding: 3% 5%;
-}
-
-.testimonial-text {
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 1.5;
-    width: 70%;
-    margin: auto;
 }
 
 .testimonial-image {
