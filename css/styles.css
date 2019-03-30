@@ -12,12 +12,6 @@ h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid {
-    padding: 3% 15%;
-}
-
-
-
 /* Headings */
 
 .big-heading {
@@ -40,20 +34,40 @@ h6 {
     text-align: right;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+.big-heading.main {
     text-align: left;
 }
+
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 
 /* Navigation Bar */
 
 .navbar {
-    font-family: 'Ubuntu', sans-serif;
     padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: 600;
 }
@@ -62,7 +76,6 @@ ul.navbar-nav li.nav-item a.nav-link {
     padding-left: 1.5rem;
     padding-right: 0;
     font-size: 1.2rem;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
 }
 
@@ -71,7 +84,6 @@ ul.navbar-nav li.nav-item a.nav-link {
 
 .download-btns {
     margin-top: 2rem;
-    text-align: center;
 }
 
 
@@ -98,7 +110,6 @@ div.download-btns button {
 /* Features Section */
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -129,7 +140,6 @@ p.features-icon {
 
 .testimonials-container {
     background-color: #ef8172;
-    color: #fff;
     padding: 3% 5%;
 }
 
@@ -146,6 +156,10 @@ p.features-icon {
     border-radius: 100%;
     margin: 20px;
 }
+
+
+
+/* Press Section */
 
 .press-container {
     background-color: #ef8172;
@@ -181,10 +195,7 @@ p.features-icon {
 /* Call to Action */
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
     padding: 5%;
-
 }
 
 .cta-btns {
