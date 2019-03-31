@@ -228,10 +228,35 @@ p.features-icon {
     .iphone-img {
         max-width: 80%;
         padding-left: 0;
-        margin: auto;
+        margin: 5rem auto;
     }
 
     h1.sub-h1 {
         margin: auto;
     }
+
+    .download-btns {
+        margin-top: 5rem;
+    }
+
+    .section-header {
+        width: 100%;
+    }
+
+    .email-form {
+        width: 70%;
+    }
+    
+    .email-button {
+        width: 70%;
+    }
+
+    .press-logo {
+        width: 25%;
+    }
+    
+    .testimonial-image {
+        width: 15%;
+    }
+
 }
